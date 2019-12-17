@@ -37,6 +37,22 @@ module.exports = withFonts({
 });
 ```
 
+
+Add your font files under `public/fonts` directory
+
+and add your font as font-face to css file
+
+```
+@font-face {
+  font-family: 'Font';
+  src: url('/static/fonts/Font-Bold.ttf');
+  src: url('/static/fonts/Font-Light.ttf');
+  src: url('/static/fonts/Font-Medium.ttf');
+  src: url('/static/fonts/Font-Regular.ttf');
+}
+```
+
+
 ### assetPrefix
 
 You can serve remote resources by setting **_assetPrefix_** option.
