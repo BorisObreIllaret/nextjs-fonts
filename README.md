@@ -6,13 +6,13 @@ Import fonts in [Next.js](https://github.com/zeit/next.js)
 ## Installation
 
 ```
-npm install --save next-fonts
+npm install --save nextjs-fonts
 ```
 
 or
 
 ```
-yarn add next-fonts
+yarn add nextjs-fonts
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Create a `next.config.js` in your project
 
 ```js
 // next.config.js
-const withFonts = require('next-fonts');
+const withFonts = require('nextjs-fonts');
 module.exports = withFonts();
 ```
 
@@ -29,7 +29,7 @@ Optionally you can add your custom Next.js configuration as parameter
 
 ```js
 // next.config.js
-const withFonts = require('next-fonts');
+const withFonts = require('nextjs-fonts');
 module.exports = withFonts({
   webpack(config, options) {
     return config;
@@ -45,7 +45,7 @@ Example usage:
 
 ```js
 // next.config.js
-const withFonts = require('next-fonts');
+const withFonts = require('nextjs-fonts');
 module.exports = withFonts({
   assetPrefix: 'https://example.com',
   webpack(config, options) {
@@ -62,7 +62,7 @@ Example usage:
 
 ```js
 // next.config.js
-const withFonts = require('next-fonts');
+const withFonts = require('nextjs-fonts');
 module.exports = withFonts({
   enableSvg: true,
   webpack(config, options) {
