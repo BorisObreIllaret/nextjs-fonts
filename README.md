@@ -87,6 +87,7 @@ module.exports = withFonts({
 });
 ```
 
-## Styled components
+## Author 
+this repo forked from 
 
-Please see https://github.com/rohanray/font-error for sample code to use with [styled components](https://www.styled-components.com/). Live URL : https://type-error-idfldxadbv.now.sh 
+https://github.com/rohanray/next-fonts
